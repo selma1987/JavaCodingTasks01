@@ -3,14 +3,17 @@ package berat.week3;
 public class ReverseNegativeNumbers {
     public static void main(String[] args) {
 
-        System.out.println(reversedNeg(-1234));
+
+        System.out.println(reversedNeg(-50));
 
     }
 
 
-   /*   public static int reverseNeg(int number) {
+   /* public static int reverseNeg(int number) {
 
-      int tensDigit = number / 10;
+
+
+        int tensDigit = number / 10;
         int unitsDigit = number % 10;
 
         int result = unitsDigit * 10 + tensDigit;
@@ -28,9 +31,9 @@ public class ReverseNegativeNumbers {
 
         }
         return rev;
+
     }
 }
-
 
 
 //Write a return method that can reverse digits of a negative number and return it as int
