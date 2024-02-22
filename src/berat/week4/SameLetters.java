@@ -1,11 +1,13 @@
 package berat.week4;
 
+import java.lang.reflect.Array;
 import java.util.Arrays;
 
 public class SameLetters {
     public static void main(String[] args) {
 
         System.out.println(haveSameLetters("arz", "zar"));
+
 
     }
 
@@ -15,6 +17,8 @@ public class SameLetters {
 
         char [] char1 = str1.toCharArray();
         char [] char2 = str2.toCharArray();
+
+
 
         Arrays.sort(char1);
         Arrays.sort(char2);

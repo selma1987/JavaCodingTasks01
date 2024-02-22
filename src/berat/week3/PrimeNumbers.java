@@ -3,7 +3,7 @@ package berat.week3;
 public class PrimeNumbers {
     public static void main(String[] args) {
 
-        System.out.println(isPrime(7));
+        System.out.println(isPrime(9));
 
 
     }

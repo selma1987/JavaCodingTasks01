@@ -5,20 +5,21 @@ import java.util.Arrays;
 public class RemoveDuplicates {
     public static void main(String[] args) {
 
-        System.out.println(removeDuplicates("AAABBBCCCDDD"));
+        System.out.println(removeDuplicates("SSEELLMMAA"));
 
     }
 
     public static String removeDuplicates(String str) {
-        String result = ""; // Boş bir sonuç stringi oluştur
+        String result = "";
+
         for (int i = 0; i < str.length(); i++) {
             char currentChar = str.charAt(i);
-            System.out.println(result.indexOf(currentChar));
+
             if (result.indexOf(currentChar) == -1) {
-                result += currentChar; // Sonuca ekle
+                result += currentChar;
             }
         }
-        return result; // Sonucu döndür
+        return result;
     }
 }
 
