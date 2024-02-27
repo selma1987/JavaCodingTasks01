@@ -5,11 +5,11 @@ public class frequencyOfCharacters {
         String result = "";
 
         for (int j = 0; j < str.length(); j++) {
-            char ch = str.charAt(j); // each character from string
+            char ch = str.charAt(j);
             int count = 0;
 
-            for (int i = 0; i < str.length(); i++) { // to find the frequency of each character
-                char each = str.charAt(i); // each character of str
+            for (int i = 0; i < str.length(); i++) {
+                char each = str.charAt(i);
                 if (ch == each) {
                     count++;
                 }
